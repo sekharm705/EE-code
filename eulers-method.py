@@ -1,4 +1,4 @@
-#Calculated for theta = 0.01, 0.1, 0.5, 1, 1.5, 2, 2.5, pi-0.001
+#Calculated for theta = 0.01, 0.1, 0.5, 1, 1.5, 2, 2.5, 3.1
 
 
 #package imports for graphing and computing sine/pi
