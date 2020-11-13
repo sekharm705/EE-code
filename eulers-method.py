@@ -1,8 +1,8 @@
 #Calculated for theta = 0.01, 0.1, 0.5, 1, 1.5, 2, 2.5, pi-0.001
 
 
-#package imports for graphing and computing sine
-import matplotlib.pyplot as plt
+#package imports for graphing and computing sine/pi
+import matplotlib.pyplot as plt # matplotlib must be installed, NumPy >= 1.15 also required
 import math
 
 #constants
