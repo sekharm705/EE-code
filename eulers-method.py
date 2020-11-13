@@ -43,8 +43,10 @@ plt.scatter(xValues, angles, color='#000000', marker="o", s=0.1) #scatterplot th
 linearPrediction = [initialAngle*math.cos(i * math.sqrt(GbyL)) for i in xValues] #create an array of what the linear approximation (SHM pendulum) predicts.
 
 plt.scatter(xValues, linearPrediction, color='#0000FF', marker="o", s=0.1) #scatterplot the time and prediction.
-plt.title(r"$\theta_0 = " + str(initialAngle) + r"$") #mark the title
 approximatePeriod = 2*math.pi*math.sqrt(length/gravity) #calculate the approximate period
-percentageError = str(round(100*((time - approximatePeriod)/approximatePeriod), 3)) #calculate the error
-plt.xlabel("Real period = "+ str(round(time, 5)) + ", Percentage error = "+percentageError+ "%") #mark the error, period
+plt.title(r"$\theta_0 = " + str(initialAngle) + r"$" + "\n Real period = "+ str(round(time, 7)) + ", Approximated period = " + str(round(approximatePeriod, 7))) #mark the title
+plt.xlabel("Time") #Label the X axis
+plt.ylabel("Angular Displacement") #Label the Y axis
+
 plt.show() #show the graph
+
