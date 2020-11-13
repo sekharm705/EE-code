@@ -1,4 +1,4 @@
-#Calculated for theta = 0.001, 0.01, 0.1, 0.5, 1, 1.5, 2, 2.5, 3, pi-0.001
+#Calculated for theta = 0.01, 0.1, 0.5, 1, 1.5, 2, 2.5, pi-0.001
 
 
 #package imports for graphing and computing sine
@@ -9,7 +9,7 @@ import math
 gravity = 10
 length = 0.1
 step = 0.000001
-initialAngle = math.pi - 0.1
+initialAngle = <initial angle>
 angularVelocity = 0 #initial condition for angular velocity
 
 GbyL = gravity/length #computed once and saved instead of computing each time
