@@ -10,6 +10,8 @@ gravity = 10 #value of gravity - 10 m/s^2
 length = 0.1 #length of the pendulum - from pivot point to the point bob.
 step = 0.000001 #smaller value makes the calculation more accurate, but increases program time. 
 initialAngle = float(input("Enter the initial angle: "))
+while (initialAngle > math.pi) or initialAngle <= 0:
+    initialAngle = float(input("The initial angle must be a positive value less than pi. Enter the initial angle: "))
 angularVelocity = 0 #initial condition for angular velocity
 
 GbyL = gravity/length #computed once and saved instead of computing each time
